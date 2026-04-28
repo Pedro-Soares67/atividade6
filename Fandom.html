@@ -3,95 +3,119 @@
 
 <head>
 	<meta charset = "UTF-8">
-	<title> Fandom de Apenas um Show </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fandom de Apenas um Show</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+<body class="bg-light">
 
-<body>
-	<header style = "text-align: center;" ><hr>
-		<h1>FANDOM OFICIAL | Apenas um Show</h1>
-	</header>
-	<hr>
-	
-	<nav>
-	 <ul>
-	  <li><a href="index.html">Home</a></li>
-	  <li><a href="#contato">Contato</a></li>
-	 </ul>
-	<hr>
-	</nav>
-	
-	<main>
-		<section>
-			<p>Apenas um Show (originalmente se chamava Normal Show) é uma série dos Estados Unidos criada por JG Quintel. Foi baseada em curtas de um programa desfeito do Cartoon Network chamado Cartoonstitute. O piloto da série foi transmitido em 14 de Agosto de 2009 nos Estados Unidos e a série estreou em 06 de Setembro de 2010 com The Power, tendo que fazer um comercial no meio da estreia de um episódio de outra série do CN, Hora de Aventura.
-			A série estreou em 11 de Agosto de 2011 na América Latina, quase um ano depois dos EUA.</p>
-			<hr>
-			<h2 style = "text-align: center;"><strong>Episódios</strong></h2>
-			<hr>
-			<h3> 1º Temporada </h3>
-			<ol>
-				<li>A Força</li>
-				<li>Apenas Arrumem as Cadeiras</li>
-				<li>Ingressos Para um Show Cafeinado</li>
-				<li>Socos Mortais</li>
-				<li>Bolo de Graça</li>
-				<li>O Churrasco</li>
-				<li>Queijo Quente de Luxo</li>
-				<li>Vão Embora</li>
-				<li>Unicórnios</li>
-				<li>Passando um Trote</li>
-				<li>Don</li>
-				<li>O Corpo de Rigby</li>
-				<li>Mordecai e os Rigbys</li>
-			</ol>
-			<hr>
-		</section>
+	<div class="container py-4">
 		
-	
-		<section style = "text-align: center;" >
-			<table border="1">
-			<tr>
-				<th colspan = "3">MEUS FAVORITOS</th>
-			</tr>
-			<tr>
-				<th>EPISÓDIO</th>
-				<th>TEMPORADA</th>
-				<th>PERSONAGEM</th>
-			</tr>
-			<tr>
-				<td><input type="text"></td>
-				<td><input type="text"></td>
-				<td><input type="text"></td>
-			</tr>
-			<tr>
-				<td><input type="text"></td>
-				<td><input type="text"></td>
-				<td><input type="text"></td>
-			</tr>
-			<tr>
-				<td><input type="text"></td>
-				<td><input type="text"></td>
-				<td><input type="text"></td>
-			</tr>
-			</table>
-	
-			<hr>
-		</section>
-	</main>
-	<footer style = "text-align: center;" id = "contato"> 
-		<h3>Entre em contato conosco!</h3>
-		<form action = "contatos.html" method = "post"></form>
-			<label for = "nome">Nome:</label>
-				<input type = "text" id = "nome">
-			<br>
-			<br>
-			<label for = "email">Email:</label>
-				<input type = "email" id = "email">
-			<br>
-			<br>
-			<label for = "contatos">Deixe sua sugestão</label>
-			<textarea id = "contatos"></textarea>
+		<header class="bg-primary text-white text-center mb-4 rounded-shadow">
+			<h1 class="display-4 fw-bold"> FANDOM OFICIAL | Apenas um Show</h1>
+			<p class="mb-0">Fandom com informações da serie</p>
+		</header>
+		
+		
+		<nav class="mb-5">
+			<ul class="nav nav-pills justify-content-center gap-3">
+				<li class="nav-item">
+					<a class="nav-link active " href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link border " href="#contato">Contato</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<main>
+			<div class="row g-4 mb-5">
+				<div class="col-lg-12"><section>
+						<p class="lead">Apenas um Show (originalmente se chamava Normal Show) é uma série dos Estados Unidos criada por JG Quintel. Foi baseada em curtas de um programa desfeito do Cartoon Network chamado Cartoonstitute. O piloto da série foi transmitido em 14 de Agosto de 2009 nos Estados Unidos e a série estreou em 06 de Setembro de 2010 com The Power, tendo que fazer um comercial no meio da estreia de um episódio de outra série do CN, Hora de Aventura.
+						A série estreou em 11 de Agosto de 2011 na América Latina, quase um ano depois dos EUA.</p>
+						
+						<h2 class="my-4">Episódios: 1º Temporada</h2>
+						<ol class="list-group list-group-numbered shadow-sm">
+							<li class="list-group-item">A Força</li>
+							<li class="list-group-item">Apenas Arrumem as Cadeiras</li>
+							<li class="list-group-item">Ingressos Para um Show Cafeinado</li>
+							<li class="list-group-item">Socos Mortais</li>
+							<li class="list-group-item">Bolo de Graça</li>
+							<li class="list-group-item">O Churrasco</li>
+							<li class="list-group-item">Queijo Quente de Luxo</li>
+							<li class="list-group-item">Vão Embora</li>
+							<li class="list-group-item">Unicórnios</li>
+							<li class="list-group-item">Passando um Trote</li>
+							<li class="list-group-item">Don</li>
+							<li class="list-group-item">O Corpo de Rigby</li>
+							<li class="list-group-item">Mordecai e os Rigbys</li>
+						</ol>
+					</section>
+				</div>
+			</div>
+		
+		<div class="card shadow-sm">
+		
+				<div class="card-header bg-dark text-white text-center">
+					<h2 class="h5 mb-0 py-2">MEUS FAVORITOS</h2>
+				</div>
+				
+				<div class="card-body p-0">
+					<div class="table-responsive">
+						<table class="table table-hover mb-0">
+							<thead class="table-light">
+								<tr>
+									<th>EPISÓDIO</th>
+									<th>TEMPORADA</th>
+									<th>PERSONAGEM</th>
+								</tr>
+							</thead>
+						   <tbody>
+								<tr>
+									<td><input type="text" class="form-control"></td>
+									<td><input type="text" class="form-control"></td>
+									<td><input type="text" class="form-control"></td>
+								</tr>
+								<tr>
+									<td><input type="text" class="form-control"></td>
+									<td><input type="text" class="form-control"></td>
+									<td><input type="text" class="form-control"></td>
+								</tr>
+								<tr>
+									<td><input type="text" class="form-control"></td>
+									<td><input type="text" class="form-control"></td>
+									<td><input type="text" class="form-control"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</main>
 			
-			<input type = "submit" value = "Enviar">
-	</footer>	
+		<footer class="bg-dark text-white p-5 mt-5 text-center" id = "contato"> 
+			<h3 class="mb-4">Entre em contato conosco!</h3>
+			<form action = "contatos.html" method = "post" class="mx-auto" style="max-width: 500px">
+				<div class="mb-3 text-start">
+					<label for = "nome" class="form-label">Nome:</label>
+					<input type = "text" id = "nome" class="form-control">
+				</div>
+		
+				<div class="mb-3 text-start">
+					<label for = "email" class="form-label">Email:</label>
+					<input type = "email" id = "email" class="form-control">
+				</div>
+				
+				<div class="mb-3 text-start">
+					<label for = "contatos" class="form-label">Deixe sua sugestão</label>
+					<textarea id = "contatos" class="form-control" rows="3"></textarea>
+				</div>
+				
+				<button type="submit" class="btn btn-success w-100 fw-bold">Enviar</button>
+			</form>
+		</footer>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
